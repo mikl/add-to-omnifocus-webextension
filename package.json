@@ -1,0 +1,25 @@
+{
+  "name": "add-to-omnifocus-webextension",
+  "version": "1.0.0",
+  "description": "Browser extension to add web pages as OmniFocus tasks",
+  "main": "src/background.js",
+  "scripts": {
+    "zip": "zip -r -9 -FS add-to-omnifocus.zip . -i LICENSE -i manifest.json -i assets/* -i src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mikl/add-to-omnifocus-webextension.git"
+  },
+  "keywords": [
+    "webextension"
+  ],
+  "author": "Mikkel Hoegh <mikkel@hoegh.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikl/add-to-omnifocus-webextension/issues"
+  },
+  "homepage": "https://github.com/mikl/add-to-omnifocus-webextension#readme",
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  }
+}
