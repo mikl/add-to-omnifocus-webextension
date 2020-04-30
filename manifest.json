@@ -9,7 +9,6 @@
     "96": "assets/omnifocus-96.png"
   },
   "permissions": [
-    "tabs",
     "activeTab"
   ],
   "browser_action": {
