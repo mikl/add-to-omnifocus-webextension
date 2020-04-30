@@ -1,9 +1,7 @@
 function composeOmniFocusAddTaskUrl(parameters) {
-  const parts = []
-
-  for (const [key, value] of Object.entries(parameters)) {
-    parts.push(`${key}=${encodeURIComponent(value)}`)
-  }
+  const parts = Object.entries(parameters).map(
+    ([key, value]) => `${key}=${encodeURIComponent(value)}`
+  )
 
   return `omnifocus:///add?${parts.join('&')}`
 }
@@ -19,8 +17,8 @@ async function handleBrowserActionClick() {
 
     const addTaskUrl = composeOmniFocusAddTaskUrl(
       {
-        name: activeTab.title,
-        note: activeTab.url
+      name: activeTab.title,
+      note: activeTab.url
       }
     )
 
