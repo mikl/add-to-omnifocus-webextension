@@ -17,7 +17,7 @@ All notable changes to this project will be documented in this file. See [standa
 * remove unneccessary await ([7a8c4e6](https://github.com/mikl/add-to-omnifocus-webextension/commit/7a8c4e69132d8edff246c1a16ba83722bb14642f))
 * simplify composeOmniFocusAddTaskUrl() logic ([14753ad](https://github.com/mikl/add-to-omnifocus-webextension/commit/14753ad3b88cd221a03482bb0490753fc87b01a4))
 
-## 1.0.0 (2020-04-30)
+## 1.0.0 (2020-04-18)
 
 
 ### Features
