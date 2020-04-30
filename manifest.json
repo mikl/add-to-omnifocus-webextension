@@ -1,9 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Add to OmniFocus",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
   "version": "1.0.0",
-  "description": "Browser extension to add web pages as OmniFocus tasks",
   "homepage_url": "https://github.com/mikl/add-to-omnifocus-webextension",
+  "default_locale": "en",
   "icons": {
     "48": "assets/omnifocus-48.png",
     "96": "assets/omnifocus-96.png"
@@ -17,7 +18,7 @@
       "32": "assets/omnifocus-32.png",
       "64": "assets/omnifocus-64.png"
     },
-    "default_title": "Add page to OmniFocus"
+    "default_title": "__MSG_extensionName__"
   },
   "background": {
     "scripts": [

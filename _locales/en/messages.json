@@ -1,0 +1,27 @@
+{
+  "extensionName": {
+    "message": "Add to OmniFocus",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Browser extension to add web pages as OmniFocus tasks.",
+    "description": "Description of the extension."
+  },
+
+  "infoTaskSent": {
+    "message": "Added task “$URL$” to OmniFocus.",
+    "description": "Log message for when a task is sent to OmniFocus.",
+    "placeholders": {
+      "URL": {
+        "content": "$1",
+        "example": "Example task"
+      }
+    }
+  },
+
+  "errorEmptyTabSet": {
+    "message": "Browser tabs query returned empty set, cannot add OmniFocus task.",
+    "description": "Console error message if fetching the active tab fails."
+  }
+}

@@ -15,18 +15,16 @@ async function handleBrowserActionClick() {
   if (tabs.length > 0) {
     const activeTab = tabs[0]
 
-    const addTaskUrl = composeOmniFocusAddTaskUrl(
-      {
+    const addTaskUrl = composeOmniFocusAddTaskUrl({
       name: activeTab.title,
       note: activeTab.url
-      }
-    )
+    })
 
     await openOmniFocusUrl(addTaskUrl)
 
-    console.info(`Added task “${activeTab.title}” to OmniFocus.`)
+    console.info(browser.i18n.getMessage('infoTaskSent', [activeTab.title]))
   } else {
-    console.error('Browser tabs query returned empty set, cannot add OmniFocus task.')
+    console.error(browser.i18n.getMessage('errorEmptyTabSet'))
   }
 }
 
