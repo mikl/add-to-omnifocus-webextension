@@ -4,7 +4,7 @@
   "description": "Browser extension to add web pages as OmniFocus tasks",
   "main": "src/background.js",
   "scripts": {
-    "zip": "zip -r -9 -FS add-to-omnifocus.zip . -i LICENSE -i manifest.json -i _locales/* -i assets/* -i src/*"
+    "zip": "zip -r -9 -FS add-to-omnifocus.zip . -i LICENSE -i manifest.json -i _locales/**/* -i assets/* -i src/*"
   },
   "repository": {
     "type": "git",
