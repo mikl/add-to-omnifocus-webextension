@@ -20,7 +20,7 @@ async function handleBrowserActionClick() {
       note: activeTab.url
     })
 
-    await openOmniFocusUrl(addTaskUrl)
+    openOmniFocusUrl(addTaskUrl)
 
     console.info(browser.i18n.getMessage('infoTaskSent', [activeTab.title]))
   } else {
