@@ -23,5 +23,32 @@
   "errorEmptyTabSet": {
     "message": "Browser tabs query returned empty set, cannot add OmniFocus task.",
     "description": "Console error message if fetching the active tab fails."
+  },
+
+  "menuAddLinkToOmniFocus": {
+    "message": "Add link to OmniFocus",
+    "description": "Console error message if fetching the active tab fails."
+  },
+
+  "fromUrlDesignation": {
+    "message": "From: $URL$",
+    "description": "Designation for from-URLs for to appear in the task note.",
+    "placeholders": {
+      "URL": {
+        "content": "$1",
+        "example": "https://www.omnigroup.com/"
+      }
+    }
+  },
+
+  "urlDesignation": {
+    "message": "URL: $URL$",
+    "description": "Designation for URLs for to appear in the task note.",
+    "placeholders": {
+      "URL": {
+        "content": "$1",
+        "example": "https://www.omnigroup.com/omnifocus"
+      }
+    }
   }
 }
