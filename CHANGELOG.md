@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/mikl/add-to-omnifocus-webextension/compare/v1.1.0...v1.1.1) (2021-03-25)
+
+
+### Bug Fixes
+
+* use different method to open OmniFocus URL ([210e260](https://github.com/mikl/add-to-omnifocus-webextension/commit/210e26035c456e1d399a0b3d338d752c1210ed17)), closes [#6](https://github.com/mikl/add-to-omnifocus-webextension/issues/6) [#7](https://github.com/mikl/add-to-omnifocus-webextension/issues/7)
+
 ## [1.1.0](https://github.com/mikl/add-to-omnifocus-webextension/compare/v1.0.0...v1.1.0) (2020-04-30)
 
 

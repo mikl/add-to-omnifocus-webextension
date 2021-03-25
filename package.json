@@ -1,6 +1,6 @@
 {
   "name": "add-to-omnifocus-webextension",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Browser extension to add web pages as OmniFocus tasks",
   "main": "src/background.js",
   "scripts": {
