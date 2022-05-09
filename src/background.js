@@ -19,9 +19,19 @@ async function handleBrowserActionClick() {
   if (tabs.length > 0) {
     const activeTab = tabs[0]
 
+    const selection = (await browser.tabs.executeScript({
+      code: `window.getSelection().toString()`
+    })).join('\n')
+
+    let note = activeTab.url
+
+    if (selection) {
+      note = note.concat("\n\n", selection)
+    }
+
     const addTaskUrl = composeOmniFocusAddTaskUrl({
       name: activeTab.title,
-      note: activeTab.url
+      note
     })
 
     openOmniFocusUrl(addTaskUrl, activeTab)
